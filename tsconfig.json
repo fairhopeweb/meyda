@@ -1,6 +1,7 @@
 {
   "exclude": ["dist"],
   "compilerOptions": {
+    "lib": ["DOM", "ES2019"],
     "outDir": "./typescript-built",
     "allowJs": true,
     "esModuleInterop": true,
